@@ -43,5 +43,10 @@ def findPrimeFactors(n):
     
 
 
+def isPalindrome(n):
+
+    if int(str(n)[::-1]) == n:
+        return True
+    return False    
 
 
